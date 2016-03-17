@@ -5,5 +5,4 @@ export  default Ember.Route.extend({
    return ['PC Repair','Network Diagnostics','Home Audio Instalations'];
   }
 });
-$
-init
+
