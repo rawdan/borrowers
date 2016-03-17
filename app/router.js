@@ -15,6 +15,8 @@ Router.map(function() {
     this.route('post', {path:':post_id'});
   });
   this.route('events');
+
+  this.route('submissions');
 });
 
 export default Router;
