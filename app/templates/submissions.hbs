@@ -7,3 +7,9 @@
     {{/each}}
 
 </p>
+<h4>Comments</h4>
+<ul>
+    {{#each comments as |comment|}}
+        <li><strong>{{comment.name}}</strong> - {{comment.comment}}</li>
+    {{/each}}
+</ul>
