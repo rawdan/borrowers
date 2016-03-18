@@ -10,11 +10,15 @@ Router.map(function() {
   this.route('services', {path:'services'});
   this.route('contact', {path:'contact'});
 
-  this.resource('posts', {path: '/posts'}, function(){
+  this.route('posts', {path: '/posts', resetNamespace: true}, function(){
     this.route('new');
     this.route('post', {path:':post_id'});
   });
   this.route('events');
+
+  this.route('submissions', {path:'/submissions'});
+  this.route('cars');
+  this.route('users');
 });
 
 export default Router;
