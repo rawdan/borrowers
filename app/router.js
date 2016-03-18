@@ -17,6 +17,8 @@ Router.map(function() {
   this.route('events');
 
   this.route('submissions', {path:'/submissions'});
+  this.route('cars');
+  this.route('users');
 });
 
 export default Router;
