@@ -3,10 +3,10 @@ import Ember from 'ember';
 export default Ember.Controller.extend({
   actions:{
     sayHello: function(){
-      alert('Hello')
+      alert('Hello');
     },
     toggleBody: function(){
-      this.toggleProperty('isShowingBody')
+      this.toggleProperty('isShowingBody');
     },
     submitAction: function(){
       alert(this.get('name'));
